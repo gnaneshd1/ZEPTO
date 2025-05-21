@@ -1,0 +1,9 @@
+# Common ignores
+node_modules/
+.env
+.vscode/
+uploads/
+package-lock.json
+
+# Frontend-specific ignores (if needed)
+# These will be merged with frontend/.gitignore

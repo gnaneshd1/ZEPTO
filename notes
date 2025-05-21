@@ -1,0 +1,2007 @@
+html 
+    tags
+        formatng tags    (which gives better look  without using css ) eg i(itac )  itag b tags
+        medida tag 
+        sturtural tags   ( which divdes page into numb of sections and discribes content in section )eg header footer etc
+
+     anker (    a )tag      =       (used to creat hyperr link)
+
+        void elemenyts    (no closing tag) link and img tag dont haave
+        non vode          (have closing tag)
+
+
+
+        schematic      =    gives clear discription about content(header foter)
+        non schamatic   =   dosnot tell anything about content(div) 
+
+
+        block level element= occupices complete line which starts in new line (paragraph   div)
+        in line  =  occupies requirwd space(img- tag) 
+
+
+        img tag  =  tag used to embade on html 
+        figur tag  = contains self image   
+
+        span tag = it is used to markup a text
+        section tag = it is used to group togeather relative elements
+        artical elements = it is a set of informations
+
+
+
+
+
+
+
+
+
+
+        
+   css
+      box mode 
+             content 
+             pading 
+             border
+
+       positions 
+             static(elements placed acording to there normal flow of the document)
+             relative( elements placed acording to there normal flow of the document placed relative to its original)
+             absolute(elements positioned relative to its parent element )
+             fixed(positioned relative to html element)
+             sticky 
+
+      selectors
+            id selector 
+            class selector
+            universal selector
+            psudo element 
+            psudo class
+
+
+        differens between  FLEX & GRID
+                flex=1dimentional (cant make changes either coloum r row at a time)
+                grid=2dimentional  (can make changes both row and coloum at a time)              
+
+
+
+
+
+
+JS
+    ( its a programing languge and core technonolgy of web page along side of html and css)
+    ( used for both front end and back end)
+
+
+
+
+   syntx 
+         comments eg //  /* */
+
+
+         variables  
+                  * var= can re assine/redeclared 
+                  * let = can re assine
+                  * const=cannot re assiend 
+
+         data types
+                  1.primitive(premitive data types are not modifyable)
+                     a) number
+                           *float number
+                                   -will be having decimal
+                           *intiger number 
+                                   - will not be having decimal
+                           
+
+                     b) boolean
+                           *tells basically true or false
+                           *checks the contents presence and gives ans as true or false 
+
+
+
+                     c) string
+                           *collection of characters or more characters
+                           *should start with 'or"
+
+
+                     d) null
+                          *no data(intentionally we give no data)
+                          *is an empty value 
+
+
+                     e) undefined
+                           *variables are declared but valus are not assined
+
+
+                  2.non primitive(can store multiple data than variables).(they are modifyable)
+                        a) array
+                              
+                              *ordered collection of different data type element
+                             
+                             * types of array 
+                                    & one dimentional
+                                          # x=[1,2,3,4,5]
+
+                                    & multidimentional
+                                          # x= [[1,2,3],
+                                                [4,5,6],
+                                                [7,8,9]]
+                                    & string array
+                                          # x=['a','b','c','d']            
+
+
+                              * how to asign a variable in array 
+                                       - by using index of array  
+
+                              * how do u  asign variable in an array 
+                                        -by using if_array             
+
+
+                              * creat new array = use = concat,pop,shift,splice
+
+
+                               *if to add elements =>
+                                                unshift = (will add element at starting of an array),
+                                                push(will add element at end of an array) ,
+                                                fill = (will fill the array with the given value)
+                                                indexing = (will add element at any index).
+
+
+                               *if to remove elements =>
+                                                 pop (wii elemate array at ending of array),
+                                                 shift (will remove element starting of arrayS)
+                                                 splice (will remove element at any index),
+                                                 delete =
+                                             
+                     
+                        
+
+                            *slice             |            *splice                          
+                                               |
+   (helps to remove the required element out)  |
+                                               |
+                                               |
+     gives starting index and ending index     |  gives starting index and remaing index
+                                               |
+                                               |
+
+
+
+
+
+                        b) object
+                             )methods in js objects
+                                   *call - invokes a function with a specified this value and arguments provided individually
+
+                                   *apply - invokes a function with a specified this value and arguments provided as an array 
+
+                                   *blind - Returns a new function with this bound to a specific object.
+
+                             )how to delete object     
+                                     delete operator 
+                                     splice()
+
+ shallow copy 
+     A shallow copy duplicates the top-level properties of an object or array but does not copy nested objects
+
+ deep copy 
+     A deep copy duplicates all levels of the object or array, including nested structures, creating an entirely independent clone
+
+
+                        c)function
+                             
+                             its is a re useable block designed to perform perticular tasks 
+
+                              invoking = a code inside a function is executed when the function is invoked
+
+
+
+                               *arrow functin
+                                   we use arrow insted of key words to declare a function
+
+                                  {LIMITATIONS OF ARROW FUNCTIONS }
+                                    *arguments cannot be passed 
+                                    *key words cannot be used 
+                   
+                  
+
+                               *declaretion function 
+                                    we declare the function by using name return parameters 
+
+                               *anomious
+                                  function without name 
+
+                               * experistion function
+                                       we declare using key words 
+
+
+                
+
+
+         ) what is    call back
+                function that is passed as an argument to another function and is executed after the completion of that function
+                 It's often used to handle asynchronous operations or events 
+
+
+
+
+
+         type of = tell about kind of data type
+
+         operations
+                 1) arthematic operations
+                           + - miltipliction division
+                         
+                 2) logical operations
+                           *and (&&) bothe the conditions are true
+                           *or(||) = either one is true 
+                           *not(!) = it will give the opposite value of the given value
+                 
+                 3) assignment
+                       symbuls are used to assine value 
+                       x=10
+                       x=y
+                       y=10
+
+
+
+                 4) comparsion 
+                     == compares only value
+                     === compares both value and data type 
+
+                        
+                 5) incriment/decriment
+                        ^ pre incriment 
+                               *console.log(++num1)
+
+                        ^ post incriment
+                              * console.log(num1++)
+                              * console.log(num1)
+
+
+                        ^ pre decrement     
+                             * --num1
+
+                        ^ post decrement
+                               * num1--
+                                  
+
+
+                 6) ternary 
+                     it is a singe line statement 
+                     
+
+
+
+
+
+      conditionales 
+
+            * if = if the condition is true then it will execute the statement
+
+            * if else = if the condition is true then it will execute the statement else it will execute the other statement
+
+            * if else if else 
+
+            * switch = it is used to execute the statement based on the condition
+
+            *else = if the condition is false then it will execute the statement
+        
+
+
+
+
+         loops  
+               syntex used to prform itrative task
+
+
+            ) what is break statement  
+                    it ends the current loop and switch to the other loop 
+
+            ) what is continue statement 
+                   breaks one itration when specified condition occurs and continues in next itration 
+
+             ) what is neested function 
+                  writing many functions in another functions 
+
+             ) what is recurtion 
+                  the function thet calls itself until it reaches base condition to stop 
+             
+             ) how to convert object into an array 
+                  use Object.keys() , Object.values() , or Object.entries() 
+                        
+
+            *for loop 
+                  -repeatedly executes a block of code as long as a specified condition is true 
+            *for of loop 
+                  - will give string  property   
+            *for in loop
+                   -will give index (means number)
+            *wile loop 
+                  - evaluate first then execute 
+            
+            * do wile loop 
+                    - execute then evaluate
+
+                        
+
+
+
+
+
+            
+         control flow (if else switch for while do while)
+         objects (object literals properties methods)
+
+
+
+
+
+              parameters             and          arguments 
+
+ Are variables listed as a part       |      Are the actual values passed
+  of the function declaration         |      to the function when its            
+         eg : names ,returns          |            invoked
+
+
+
+CLOSERS 
+   allows functions to retain variables from ther lexical scope even after the outer function as finished executing
+
+
+
+
+
+
+
+js-objects
+      
+
+            )prototype chain 
+     
+
+                   * prototype
+                          -property is specific to functions in javascript
+
+                   * _ptoto_
+                             property is reference to the prototype of the  object   
+
+       
+
+
+
+JSON(JavaScript Object Notation)
+   used to transmit data between a server and web application as text
+
+      JSON.stringify(): 
+           Converts a JavaScript object into a JSON string.
+        
+      JSON.parse():
+           Converts a JSON string into a JavaScript object.
+
+       
+       
+     * Keys are always strings and enclosed in double quotes.
+
+
+
+
+
+operators 
+    *rest operator
+    * spread operators
+
+
+
+regEx (regular expresition)
+      
+
+Higher order functions in arrays 
+    )  forEach 
+         used to itrate over each element in an array 
+
+    )  map 
+        helps to create a new array by applying a provided function to each element of orignal array 
+        
+
+
+    )  filter
+         used to filter out number 
+
+
+    )  reduce
+         converts all arry value intop single  value 
+
+    )  reduceRight
+          convertes all array value to single line from right to left 
+     
+    )  some
+        which execute call back function
+
+
+    )  flatMap
+          helps to add and remove iteames in map
+
+
+    )  find
+         returns the value of first element that passes test 
+
+
+    )  sort
+         used to find incriment and  decriment in an array 
+
+
+
+
+
+DESTRUCTREING
+      allows you to extract values from arrays or objects and assign them to variables
+
+    )methods 
+           $$Array Destructuring:
+               can extract values from an array and assign them to variables using square brackets 
+
+           $Object Destructuring:
+                can extract values from an object and assign them to variables using FLOWER braces       
+
+      
+    $ what happens when u destructure null, undefined 
+      And throw an error
+
+      )types 
+        $ rest operators (...)
+             helps to assigsn or call  in an array 
+
+       $ spread operators 
+
+
+    $ undifind or null value is destructured 
+           error   
+
+    $ what happens when destructor an non existing property
+           undefine
+
+
+    $ how do u merge  two array wile destructing
+             using rest operators 
+     (a,b :  c=...a,...b = merged)
+
+
+    $how do u swap  two array wile destructing
+        yes 
+        x=1
+        y=2
+        after swaping ([x,y]=[y,x])
+        x=2
+        y=1
+
+
+
+
+
+    $ how do u skip in destructuring 
+        by inserting camma(,)
+
+    $ how array destructung work 
+
+    $ can we destructure inside a loop
+       = s
+
+
+
+
+
+
+    
+Classes 
+   blueprint to creat objects  
+
+   * methods
+       )constructor
+           automatically called when new instance of class is created
+
+       )static
+            can be called directly on the class without creating an instance
+
+
+       )prototype
+            it is an  built in function in a classes
+
+
+
+    )what are getter seter method in classes
+             that allowes to modify values directly without directly changing object property
+          
+                getter= used to read values
+                setter=Used to update (set) the value of a property,
+
+
+    )How to Override a Method in a Child Class
+            1. Define a method in the parent class.
+            2. Use the same method name in the child class.
+            3. Use the super keyword if you want to call the parent class’s method inside the child’s overridden method.
+   
+    )how do u prevent a class being extended using key word
+           final keyword
+
+
+)diff bw class and prototype
+
+
+) what is instansatin
+     process of creating object from classes using new keywords
+
+
+)WHAT IS SUPER KEY WORD /
+     to acces methods from parent cell
+
+)what this inside constructor 
+    used to read code written inside constructor
+
+)how do u create private variables
+    clauses
+
+)what is expression function in classes
+           
+
+)what is declaration  function in classes
+
+
+)
+
+           
+
+ OOPS( object oriented programing)
+   )inheritance =(key word =extend )
+         passing down characteristics from a parent to a child so that a new piece of code can reuse and build upon the features of an existing one.
+
+
+   )overriding(polymorphism) 
+        define a method with the same name ,parameter list and return type as the parent class method within the child class
+
+   )multiinheritence=
+         cannot use in js
+
+   )overlanding=no
+
+
+
+
+
+
+
+
+
+
+
+D O M ( Document Object Model )
+       allows JavaScript to interact with and manipulate the content, structure, and styles of a webpage 
+
+    accesing the document 
+            *get element by id (id)
+                   modify content, styles, or attributes of an element.
+
+            *get elements by class name (class name)
+                  Returns a live collection (updates if elements are added/removed).
+
+            *get elements by tag name (tagname)
+            *query selector (selector)
+            *query selector all (selector all)
+
+
+INNER HTML
+   Returns all content, including HTML tags.
+
+INNER TEXT
+   Returns only visible text (ignores hidden elements).
+
+TEXT CONTENT
+  Returns all text, even from hidden elements.
+
+
+Event Delegation
+  used to manage and handle events on multiple child element by attaching single event listner to a parent element 
+
+PARENT NODE 
+     Returns the parent node of an element, which can be any node type (element, text, comment, etc.).
+     If there is no parent, it returns null.
+
+
+PARENT ELEMENT
+   Returns the parent element of an element, but only if it's an Element node.
+   If the parent is not an element (e.g., it's a Document or null), it returns null.
+
+
+DIFF PARENT NODE AND CHILD NODE 
+    
+    P=  A node that contains another node inside it.
+
+    C=  A node that is directly inside another node.
+
+
+
+HOW DO U CLONE ELEMENT IN NODE 
+    cloneNode() method.
+
+
+DIFF BW REMOVE AND REMOVE CHILD
+    removeChild()= REMOVES BOTH PARENT AND CHILD 
+    remove()=REMOVE CHILD
+
+
+
+HOW DO U CREATE AND APPEND ELEMENT IN DOM
+    CREATE = createElement()
+    APPEND = appendChild() 
+
+HOW DO U CHANGE CSS STYLE 
+    USING STYLE ATRIBUTES
+
+
+
+DIFF TYPES OF DOM NODES
+  1.Element Nodes
+  2.Text Nodes
+  3.Comment Nodes
+  4.Document Node
+    
+WHAT IS ON CLICK FUNCTION
+    The onclick event executes a certain functionality when a button is clicked
+
+
+WHAT IS EVENT LISTNER 
+   helps to create mouse click keybord click and windows re sizing 
+
+WHAT IS INNER HTML 
+   basically represent inner html tag(style ,script , div )
+
+WHAT IS INNER TEXT 
+   used to set text content 
+
+WHAT IS TEXT CONTENT 
+   paragraph tag ,heading tag , images 
+
+
+
+     manuplating the dom 
+               )events 
+                  * window events     
+                  * documents events     
+                  * keybord events      
+                  * clipbord events      
+                  * media events      
+                  * form events      
+                  * touch , transition and others 
+               
+               
+               
+               )contents
+                  *creating elements      
+                  *appending elements      
+                  *removing elements      
+                  * modifying content 
+                  * modifying attributes 
+
+addEventListener
+  method is used to attach an event to an element, allowing us to execute a function when the event occurs.
+
+
+
+
+
+
+STORAGES IN JS 
+
+       ) COOKIES
+           *can store small pices of data (upto 4kb)
+
+           *have expiration dates once expired they automatically deleted
+
+           *limited storage size and has expiry 
+
+
+       )LOCAL STORAGE
+            *allows storing key-value pairs in the browser with no expiration date(upto 5mb)
+
+            *large storage capacity compared to cookies 
+
+      )SESSION STORAGE(5mb)
+            *similar to localstorage but tied to the lifetime of the current browser tab
+
+            *data is deleted once the tab is closed 
+            
+
+
+
+) how do u destroy local storage 
+      use CLEAR
+      
+) what happens if local storage is full 
+      When you try to store data in localStorage, the browser checks whether there's enough remaining space for the current domain. If yes: The data is stored, overwriting values if an identical key already exists
+
+) how to remove storages in js
+      REMOVE ITEM
+
+) how to store variables in js
+   use LEFT key word 
+
+) what is max storage of local storage 
+    up to 10mb
+
+) how to get all session storage 
+    by passing GET ITEM 
+
+
+) whaere cookies are stored 
+   stored on client side users computer 
+
+) session storage 
+   stored in memory, in database, or in a memory cache.
+
+) set item 
+    method used to store a key-value pair.
+
+)LIMITATIONS OF WEB STORAGES 
+
+  1. Limited Storage Capacity(5MB per origin )
+  2.  only accessible from the client-side (JavaScript) and cannot be directly read by the server
+  3.
+
+
+
+
+
+
+
+EVENT LOOP
+    
+  )HOW EVENT LOP WORK
+      allows it to handle asynchronous operations efficiently.
+
+  ) what is event loop
+          helpse to handel asynchronus functiooons easily
+
+
+  )v8 engin
+      its creteed or borrowed form node js
+
+      helps to execute code 
+
+    
+
+
+  ) libue
+     its a c++ liberary and  helpse to execute asynchronus functiooons easily
+
+ call back function
+         it also asysncronus , executes similar to event loop
+         
+
+     
+       
+       
+PROMISES 
+    allows it to handle asynchronous operations
+
+   ) stages
+        pending 
+           initalized using executed function 
+
+        fullfiled 
+            sucess asynchros requset
+
+        reject 
+           code is wrong or network erroe
+
+   
+
+   )Benefits of Promises
+
+       1.   Improves Code Readability 
+
+       2.   Better handling of asynchronous operations
+
+       3.   Better flow of control definition in asynchronous logic
+
+       4.   Better Error Handling
+
+
+   )Composition tools
+        
+      *Promise.all()
+        
+      *Promise.race()
+      
+      *How Do I Cancel a Promise?
+
+
+
+
+            *syncronus call back functions
+               A synchronous callback is executed immediately during the execution of the parent function,
+                blocking the code until the callback finishes.
+            
+            *asyncronus call back functions
+               executed after the parent function completes
+                It doesn't block code execution.
+
+
+
+
+
+
+ASYNC AND AWAIT 
+
+async 
+  helps to handle asynchronus function
+
+await 
+  written inside a asynchronus function it is paused untl the promices is resolved 
+
+
+  catch
+    rejection handler  call back fuction
+
+  then
+    resolved handle callback 
+
+
+
+
+
+
+
+
+
+NODE - JS - MODULES 
+       are a way to organize and separate code into smaller, reusable pieces
+  
+       Exporting: 
+            This is how you "share" a piece of code (like a function, object, or variable) from one module so it can be used in other modules.
+       
+)HOW DO U EXPORT AND IMPORT 
+    BY USING EXPORT AND IMPORT KEY WORD  
+
+
+       Importing:
+             This is how you "bring in" the shared code from another module into the current module.
+
+
+)WHAT IS NAMESD AND DEFAULT VALUES
+  THIS MODULES EXPORTS MULTIPLE THINGS 
+   DEFAULT SINGLE THINGS
+
+)DIFF BW ES6 AND COMMON JS METHOD
+    ES6=   Uses import statement
+
+    COMN JS =   Uses require() function
+)
+
+
+     ) types
+         *ES6 module (ECMA script 2015)
+            uses import and export keywords
+
+         *commonJS modules
+            uses require and module.exports    
+
+         *ADM modules
+             uses define and require function
+
+
+
+     ) features
+          *each module has its own namespace
+          
+          *variables and functions with a module are not visible outside unless exported
+
+          *the same variable or function names can be used in different modules unless exported .
+
+          *explicit imports control what is shared between modules ,maintaing clean and conflict-free code
+
+
+
+     ) advantage/benifits
+           *encapsulation
+                modules allow you to encapsulate code and expose only what is nessary
+            
+            *reusablity
+                you can reuse modules across different parts of your application or in different application
+            
+            *maintainability
+                modular code is easier to maintain and understand as each module has a clear responsiblity 
+
+            *avoiding naming conflicts 
+                modules help avoid naming conflicts by providing scoped environments for variables and functions 
+
+     )packages
+        *npm
+           default tool provided with node.js and want the latest features and improvement from the official package manager
+
+
+        *yarn
+          faster installations better offline support and built-in workspace management 
+    
+    
+    ) What is the difference between synchronous and asynchronous modules in Node.js?
+                 Synchronous Modules – Blocking, waits for execution to complete before proceeding.
+
+                 Asynchronous Modules – Non-blocking, uses callbacks/promises to handle operations.
+     
+
+    )
+
+
+
+
+
+
+
+DATA BASE(SQL)
+       SQL (Structured Query Language) is used to manage and manipulate relational databases.
+
+    
+    What is Database?
+             * application that stores the organized collection of records.
+
+             *managed by DBMS
+
+             * organize data into tables, rows, columns, and indexes to find the relevant information very quickly.
+  
+
+  *DBMS =(database management system )
+       its a software that facilitates creating managing and manipulating data bases
+
+   * sql=sequential quary language
+
+
+
+)diff bw delete ,truncate and drop
+          delete           |       truncate          |           drop 
+                           |                         |
+    Removes specific rows  |  	Removes all rows     | 	Deletes table completely 
+                           |                         |             
+)CONCAT
+    used to combine (concatenate) multiple strings into one.
+
+)to create database
+     CREATE DATABASES<db_name>;
+
+
+)to delete a database
+      DROP DATABASE<db_name>;
+
+
+)to show existing database
+      SHOW DATABASES<db_name>;
+
+)to read database
+    USE<db_name>;
+
+
+)to see tables present inside database
+      SHOW TABLES;    
+
+
+
+      CRED tables operations
+
+          ^ CREATE TABLE 
+
+                CREATE TABLE table_name(
+                  column1 datatype,
+                  column2 datatype,
+                  ...
+                );
+
+
+
+
+
+          ^ READ TABLE
+               
+                SELECT column1,column2,
+                FROM table_name
+                WHERE condition;
+
+
+
+
+
+           ^UPDATE/MODIFY TABLE
+
+                UPDATE table_name
+                SET column1 = value1,column2 =value2,...
+                WHERE condition;
+
+
+
+
+
+           ^DROP TABLE(delete table)
+
+           DROP TABLE table_name;
+
+
+
+           ^ DELTE WHOLE TABLE data
+               TRUNCATE TABLE
+
+
+
+          ^DELETE single data in table 
+                DELETE FROM
+
+
+) constraints
+      used to specify ruls for data
+    
+) what is primary key 
+    uniquely identifies each record in a table and cannot contain NULL values.
+
+) what is forign key 
+  is a column that references a Primary Key in another table.
+
+  or
+
+
+  Enforces referential integrity by defining relationships between tables
+
+) SUM 
+   returns total sum of numerical values
+
+
+)count 
+    recturns number of records
+
+
+  
+)Check
+   Allows you to define a condition that values in a column must meet for an INSERT or UPDATE operation to be successful
+   
+
+
+)Unique key
+     column or a set of columns contain unique values
+     a table can have multiple unique constraints
+
+
+)how do u declare assending and desending
+   ASE 
+   DSE
+   
+)A<>B
+  A not equal B
+
+
+)%ABC
+   ends with 
+
+)ABC% 
+   Starts with 
+
+)%ABC%
+   middle 
+
+)how do u limit data 
+    limit tag
+
+
+
+) diff bw INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN
+
+
+  INNER JOIN = Returns records that have matching values in both tables
+
+  LEFT JOIN = Returns all records from the left table and matching records from the right table
+
+  RIGHT JOIN = Returns all records from the right table and matching records from the left table
+  
+  FULL JOIN = Returns all records when there is a match in either table
+
+
+) Self Join
+      table is joined with itself. It is useful when you need to compare rows within the same table.
+
+)Normalization
+    process of organizing data in a database to reduce redundancy and improve data integrity.
+    It involves dividing a database into multiple tables and defining relationships between them.
+
+) What is an AUTO_INCREMENT column in SQL?
+      automatically generates unique values for a column.
+      
+    
+) What is GROUP BY in SQL?
+    groups rows that have the same values in specified columns.
+
+
+)  What is the difference between UNION and UNION ALL?
+
+       *UNION = removes duplicates.
+
+       *UNION ALL = keeps duplicates.
+
+
+)diff bw having and ware
+    WHERE=Used to filter records before grouping (aggregation).
+
+    HAVING=Used to filter records after aggregation (GROUP BY).
+  
+)Triggers
+    is a special stored procedure that automatically executes before or after an event (INSERT, UPDATE, DELETE) occurs in a table.
+
+) default 
+  specify data value from calumn
+
+
+) not null 
+  Ensures that a column does not contain NULL values.
+
+   
+)to select country 
+ SELECT * from city WHERE countryCode = 'IND';
+
+)GROUP BY and ORDER BY and PARTITION BY
+    
+    GROUP BY = Groups rows with the same values
+
+    ORDER BY =  Sorts rows in ascending (ASC) or descending (DESC) order
+
+    PARTITION BY = Keeps all rows but applies window functions within partitions
+
+)LIKE operator 
+     used for pattern matching in text-based columns. It allows you to search for specific patterns in a column using wildcards.
+
+
+)conditions in sql
+
+) variable and character
+   variable = variable length
+   character = fixed length 
+
+
+) to update table content
+   UPDATE <table>SET
+   col1 = value
+   col2 = value
+   col3 = value
+   col4 = value
+ WHERE <condition>
+
+
+)add a column 
+   ALTER TABLE <table name>
+   ADD <coulm name > VARCHAR (13);
+
+)drop a column 
+   ALTER TABLE <table name>
+   DROP COLUMN <coulm name >
+
+)modify a column
+   ALTER TABLE <table name>
+   MODIFY COLUMN Title varchar(300)
+
+)rename a column
+     ALTER TABLE <table name>
+     CHANGE COLUMN Title <table name> VARCHAR(300)
+
+)rename the table 
+      ALTER TABLE <table name>
+      RENAME TO <name>
+
+
+
+)constraints in sql(restrictions)
+  1.UNIQUE
+       ensures that all values in a column is unique 
+  
+  2.CHECK
+       ensures that all values in a column meet a specified condition 
+
+  3.NOT NULL
+       ensures that a column does not accept null values
+
+  4.DEFAULT 
+       specifies a default values for a column
+
+  5.PRIMARY KEY
+       ensures each record is uniquely identifiable
+
+  6.FORIGN KEY 
+       establishes a relationship between two tables
+
+  7.Auto-Increment Constraint
+       used with integer columns, it automatically generates a new value for the column with each INSERT operation
+
+
+)INDEX KEY 
+       it will help to retrive the data more quickly
+
+
+
+       
+% we can have multiple unique keys table
+% we cannot have multiple primary keya in table 
+
+
+)JOINS
+  1.inner join
+  2.outer join 
+  3.left/left outer join
+  4.right/right outer join
+
+
+
+)RANKING
+  1.ordering 
+      use ORDER BY within the over clause to specify the column and order by which rows are ranked
+
+  2.partitioning
+      Optionally use PARTITION BY within the OVER clause to rank rows within groups defined by partitioning columns.
+
+
+  3.Handling Ties
+      Choose between ROW_NUMBERO. RANK(, or DENSE RANKO based on whether you want to skip ranks (RANK) or assign consecutive ranks (ROW_NUMBER and DENSE_RANK).)
+
+  4.Compatibility
+      These functions are supported in major SQL databases like PostgreSQL, SQL Server, Oracle, and MySQL (version 8 and above).
+
+
+
+)INTERSECT 
+    Returns only the matching (common) rows from both queries.
+
+)UNION
+  Combines results from multiple queries.
+  Removes duplicates automatically.
+
+
+
+
+
+
+
+
+
+MONGO AND EXPRESS
+     mongo DB is a  open-source document-oriented and one of the widely recognized nosql database 
+
+     it is written in c++ launguage
+
+  )collection 
+      group of documents and is similar to an RDBMS table
+
+  
+  )document
+      set of key-value pairs .documents have dynamic schema
+      
+
+
+)BSON
+  it is a binary jason that can be read by machines
+
+
+)request. query = used to pass parameters through the URL query string
+ 
+ Request.bodies = used with “create” and “update” operations (POST, PUT, PATCH)
+ 
+ req.params = Used to access route parameters (dynamic parts of the URL).
+
+
+
+express = it is backend frame work for node js helps to build web applicalications and api 
+
+middel warre = functions that have acces to req and res in an applicalications
+
+
+)how to validate users in express js
+      express-validator
+
+
+)handling static files i middele ware
+       express.static
+
+)Routes in Express.js
+    define how an application responds to client requests (e.g., GET, POST, PUT, DELETE)
+     
+)1. What are Cookies? 🍪
+    *A cookie is a small piece of data stored in the user's browser and sent with every request to the server.
+
+    *can be percistent 
+    
+) What are Sessions?
+     *stores user data on the server,
+     
+     *expires when user logs out 
+           
+)CORS in Express.js
+   CORS (Cross-Origin Resource Sharing) is a mechanism that allows
+    servers to control access to their resources
+     from different origins (domains, protocols, or ports).
+)Event Loop in Node.js
+     The Event Loop is what makes asynchronous, non-blocking operations possible in Node.js
+)what r web socket
+     communication channel over a single TCP (Transmission Control Protocol) connection, allowing real-time data exchange between a client (browser) and a server
+
+
+) Why Use Clustering?
+      Clustering is an unsupervised machine learning 
+      technique designed to group unlabeled examples
+       based on their similarity to each other
+  
+✅ Improves performance by using multiple CPU cores.
+✅ Increases application scalability.
+✅ Ensures fault tolerance (if one worker crashes, others keep running).
+✅ Useful for high-traffic
+
+)Use console.log() for Simple Debugging
+
+)Handling POST Requests in Express.js 🚀
+     A POST request is used to send data from the client to the server, usually for creating new records in a database.
+
+
+)JWT Authentication 
+    (JSON Web Token) authentication is a method for securely transmitting information between parties as a JSON object
+
+
+)Middleware functions
+    process requests before they reach endpoints, handling tasks like parsing JSON bodies or logging requests.
+
+ )Shallow Copy
+    A shallow copy creates a new object, but if the original object has nested objects (arrays, objects inside objects), it copies references instead of actual values.
+)Deep Copy
+    A deep copy creates a completely new, independent copy of an object, including all nested properties.
+
+)Flattening an Array in JavaScript
+    Flattening an array means converting a multi-dimensional (nested) array into a single-level array.
+            Using reduce()
+            Using flat()
+
+) Middleware types 
+    1. Application-Level Middleware
+             These apply to all requests in the app.
+    
+    2. Router-Level Middleware
+             These apply only to specific routes using express.Router().
+    
+    3. Built-in Middleware
+             Express provides some middleware out of the box.
+    
+    4. Third-Party Middleware
+             These are external packages installed via npm.
+
+    5. Error-Handling Middleware
+             Handles errors globally. It has four parameters: (err, req, res, next).
+
+    6. Request-Specific Middleware
+             Applies only to certain routes.
+
+)request and responces
+
+  req = initiate communication from the client to the server , specifying what resource is needed and how the server should handle it 
+
+
+  res= are sent form the sever back to client , providing the requested resource or indicating the outcome of the request 
+
+ipv4 = localhost 127.0.0.1
+ipv6 = ::1
+
+
+)how do u protect express js from security
+   Use HTTPS
+      Always use HTTPS to encrypt data in transit
+  
+   Session Security
+      If you're using sessions (like with express-session), ensure that session data is stored securely.
+  
+   Use CORS Appropriately
+      avoid allowing any unauthorized domain to access  resources
+
+
+
+)WebSockets
+    allow real-time, bidirectional communication between the server and clients, 
+    making them ideal for chat apps, notifications, and live updates.
+
+)how do u impliment web sockets
+      use Socket.IO
+
+
+
+)Optimized Techniques for Express.js
+      (TECIQS):
+
+✅ T - Throttling & Caching
+✅ E - Efficient Middleware Usage
+✅ C - Compression & Response Optimization
+✅ I - Input Validation & Security
+✅ Q - Query Optimization (Database)
+✅ S - Scalable Architecture
+
+✅ T - Implement rate limiting & caching (Fast responses)
+✅ E - Optimize middleware usage (Efficient request handling)
+✅ C - Compress responses & stream large files (Better performance)
+✅ I - Validate inputs & secure queries (Prevent attacks)
+✅ Q - Optimize database queries (Faster data retrieval)
+✅ S - Use clustering & load balancing (Scalability)
+
+
+)Compression in Express.js
+    reduces the size of HTTP responses, improving speed and performance.
+
+    ✔ GZIP (Default): Use compression() for basic optimization.
+    ✔ Brotli (Faster): Use shrink-ray-current for better performance.
+    ✔ Customize: Exclude certain files and set compression thresholds.       
+ 
+
+)Catchy & Engaging Responses in Express.js
+   1. Use Custom Response Messages
+         Instead of generic responses like "OK" or "Error", use descriptive and engaging messages.
+   2. Use Status Codes with Meaningful Messages
+   
+   3. Random & Dynamic Responses
+
+) How do you use environment variables in Express.js?
+        Use dotenv 
+
+
+
+) METHODS 
+
+  # HTTP METHODS 
+    *GET = retrive data from a specific resources
+
+    *POST: Submits data to be processed to a specified resource.
+
+    *PUT: Updates or replaces a resource on the server.
+
+    *PATCH: Applies partial modifications to a resource.
+
+    *DELETE: Removes a specified resource from the server.
+
+    🔹 GET /users → Fetch users
+    🔹 POST /users → Create a user
+    🔹 PUT /users/:id → Update a specific user
+    🔹 DELETE /users/:id → Delete a specific user
+
+
+ 
+  # OTHER METHODS
+    app.all(route, callback) – Handles all HTTP methods at the specified route.
+
+    app.use([path,] callback) – Mounts middleware functions at the specified path.
+
+    app.listen(port, [hostname], [backlog], [callback]) – Starts the Express server.
+
+    app.set(setting, value) – Configures application settings.
+
+)What is req.params and req.query in Express.js?
+       req.params: Used to get route parameters.
+
+       req.query: Used to get query parameters
+
+)scheema in express is
+     schema defines the structure of data in a collection or table.
+
+
+)What Are Routers
+   help organize code by handling different endpoints separately
+
+
+) how do u handle errors in express 
+    by using middleware
+
+)Node.js vs JavaScript (JS) 
+    
+    JavaScript = is a programming language Runs in a web browser
+               = Frontend development 
+
+
+    Node.js = is a runtime environment that allows JavaScript to run outside the browser.
+            = Backend development
+
+)Event Loop vs Worker Threads
+     Event Loop = Single-threaded
+                = Uses callbacks, promises
+
+     Worker Threads = Multi-threaded
+                    = Uses postMessage()
+
+)Role of require() in Node.js
+          built-in function in CommonJS (CJS) that allows you to import modules, JSON files
+
+)CommonJS vs ES Modules in Node.js
+       
+       CommonJS (CJS) → Uses require() and module.exports (default in Node.js).
+
+       ES Modules (ESM) → Uses import/export (modern JavaScript standard).
+
+   
+)HOW EVENT LOP WORK
+      allows it to handle asynchronous operations efficiently.
+
+) what is event loop
+          helpse to handel asynchronus functiooons easily
+
+)
+
+)What are Streams in Node.js?
+      used to handle reading and writing data in a continuous, sequential manner
+
+)Stream vs Buffer
+      Buffers = are used to represent binary data,
+              often used for reading or writing data in chunks.
+
+      Streams = process data in smaller chunks as it's being read 
+              or written, making them more efficient for large data.
+
+)CRUD operations in Express.js
+      
+      * Create = Use the POST method to add new data to the server
+
+      * Read =  Use the GET method to retrieve data from the server
+
+      * Update =  Use the PUT method to modify existing data on the server 
+
+      * Delete = Use the DELETE method to remove data from the server 
+
+      * PATCH = Use the PATCH method to partially update existing data on the server
+
+
+MANGO DB
+
+          sql                   |               mango
+                              called
+         tables                 =             collections
+          rows                  =             documents
+        show databases          =             show dbs
+        slect*from              =             db.collection.find()
+        select                  =             find, find many
+        update                  =             update one,update many
+        delete                  =             delete one , delete many
+        insert                  =             insert one , insert many 
+
+
+
+
+
+
+             ORM               |           ODM
+                               |
+    OBJECT RELATIONAL MAPING   |     OBJECT DOCUMENT MAPING
+                               |
+Uses SQL for data retrieval    |     Uses NoSQL queries
+      & manipulation           |    MongoDB Query Language
+
+
+                               |
+ 
+)Mongo find commands
+ *find all document 
+ *find by field value
+ *find with multiple conditions 
+ *find with logical operators
+ *find with projections
+ *find with sorting 
+ *find with limit 
+ *find with skip
+ *find by regular expression
+ *find with range queries 
+
+
+
+
+
+upsert is used to add new data if not present in databaes
+
+
+
+)
+find(): Retrieves documents based on a query.
+
+sort(): Sorts results by specified fields.
+
+limit(): Limits the number of returned documents.
+
+skip(): Skips a specified number of documents.
+
+$eq, $gt, $lt, $in, $ne, $exists: Comparison operators.
+
+$or, $and, $not, $nor: Logical operators.
+
+$regex: Regular expression matching.
+
+distinct(): Returns distinct values for a field.
+
+countDocuments(): Counts the number of documents that match the query.
+
+findOne(): Retrieves a single document.
+
+
+)Update Method (Syntax):
+  db.collection.uodate
+
+) Delete Method (Syntax): 
+ db .collection.deleteone 
+ db .collection.deletemany 
+
+)Aggregate Method (Syntax):
+   db .collection.Aggregate 
+
+) How do you insert a document into a MongoDB collection?
+      db.users.insertOne({ name: "John", age: 30 });
+
+)How do you retrieve all documents from a collection?
+       db.users.find();
+
+)What is indexing in MongoDB?
+   db.users.createIndex({ name: 1 });
+
+
+)lookup in MongoDB (Aggregation Lookup in Mongoose)
+       used for joining two collections, similar to SQL JOINs. 
+
+
+). What is the difference between findOne() and find()?
+        findOne() returns a single document,  
+        find() returns a cursor with multiple documents.
+
+) What is aggregation in MongoDB?
+        processing and transforming data using  $match, $group, and $project.
+   
+)We use the aggregate method in MongoDB to:
+   *Perform Complex Operations
+   *Efficiency
+   *Data Analysis
+   *Data Integration
+   *Flexibility
+
+)Backing Up and Restoring MongoDB Data
+       mongodump (for backup)
+
+        mongorestore (for restoring)
+
+
+) deleteOne() =remove only one record
+
+  deleteMany() = remove multiple records
+   
+ destroy({ where: {} }) = bulk deletions in SQL
+
+ destroy({ where: {}, limit: 1 }) = deleting a single record in SQL
+
+
+
+)findOne() =  one record
+ find() (Mongoose) / findAll() (Sequelize) = need multiple records
+ 
+  
+)What is the purpose of $lookup in MongoDB?
+     What is the purpose of $lookup in MongoDB?
+
+
+)What is the difference between $push and $addToSet
+     $push adds elements to an array, allowing duplicates,  
+     $addToSet ensures unique elements.
+
+)Projection Operators
+      projection operators that allow more complex operations during projection  
+
+
+      $ (projection of the first element in an array)
+
+      $elemMatch (projection that matches elements in an array)
+
+      $ slice (projection that limits the number of elements in an array)
+
+      $meta (projection that returns metadata)
+
+
+)Why Do We use Projection?
+     can significantly improve query performance by reducing the amount of data transferred over the network and processed by MongoDB
+
+      It is especially beneficial when dealing with large collections or when network bandwidth is limited.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REACT JS
+    
+
+
+)What is Virtual DOM?
+     lightweight copy of the real DOM. React uses the virtual DOM to perform efficient updates to the actual DOM by comparing the virtual DOM with the real DOM and only applying the necessary changes.
+
+)Real dom 
+   it refers to actual html structure of web page which browser use to render ui 
+
+
+% CREATE APPLICATION
+   *npm i -g create-react-app
+   *npx create-react-app aplication name 
+   *cd aplication name 
+   *npm start
+
+   
+)What is React?
+   allows developers to build encapsulated UI components that can be reused throughout an application
+
+)What are components in React?
+     building blocks of a React application
+        They can be either class components or function components,
+         and they return JSX which is rendered on the screen.
+
+
+
+)What is JSX?.
+    Java Script extension,
+ is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript
+
+
+)ReactDOM 
+     ReactDOM is the package that provides DOM-specific methods that can be used to render React components into the DOM.
+
+     It contains methods like 
+     ReactDOM.render() 
+        for rendering components and 
+     ReactDOM.unmountComponentAtNode() 
+         for unmounting components from the DOM.
+
+ 
+
+
+)Component :
+   There are 2 Types of Components
+
+        Functional Component : use Hooks for state and side effects.
+
+        Class Component : use ES6 classes and lifecycle methods.
+
+) What are controlled and uncontrolled components?
+     Controlled components = are controlled by React state
+
+     Uncontrolled components = maintain their own state using refs.
+
+) API  call in react
+    fetch  ,  useEffect 
+
+
+)Props :
+  used to pass data from parent to child component
+
+
+
+)Routing in React JS
+   process of managing the navigation between different views or components within a React application
+
+)What is lifting state up in React?
+     moving state to a common parent component so that multiple child components can share it
+
+
+)What are Hooks in React?
+      functions that let you use React features like state and lifecycle methods within functional components
+
+    ) Why Use Hooks?
+         Simplifies Component Logic:
+
+         Enhanced Reusability and Composition:
+
+    )hook callback
+        function used in a hook Or a callback that memoize using useCallback
+
+    
+
+)          props            |          state            |        useEffect                   |        	useLayoutEffect
+                            |                           |                                    |       
+Pass data into components   |   Store internal/local    |       To handle side effects       |     Use when you read or write 
+                            |    component data         |       in functional components     |layout—like getting an element’s 
+                                                                                             | position, measuring dimensions, 
+                                                                                             |  or syncing scroll
+
+) What is the difference between useEffect and componentDidMount?
+    componentDidMount = is used in class components
+
+    useEffect  =   used in function components to run code once after the component mounts.
+
+
+)useState and useEffect
+ 
+     * useState
+         Purpose: 
+           To manage state in a functional component.
+
+         When to Use:
+           When you need to keep track of simple state values that change over time
+
+     * useEffect
+          Purpose: 
+             To handle side effects in functional components.
+
+          When to Use:
+              When we need to perform actions like data fetching, subscriptions, or manually changing the DOM in response to state or props changes
+
+
+)useReducer &  useRef
+
+     * useReducer 
+
+            Purpose:
+             
+              To manage complex state logic in React components.    
+
+     * useRef
+
+         Purpose: 
+             To access and persist a mutable value that does not cause a component to re-render when updated.     
+
+
+)fragments 
+helps to group multiple elements without adding extra node to dom 
+
+
+)controled and uncontrolled 
+        controlled components manage their state through React state,
+
+        uncontrolled components manage their state internally, relying on the DOM for interactions
+
+)Prop Drilling:
+    Passing props through multiple levels of components, even if intermediate components don’t need them.
+
+
+)await
+   Used to pause execution until a promise resolves (usually inside an async function).
+
+
+) What is a higher-order component (HOC)?
+     is a function that takes a component and returns a new component with additional props or behavior.
+
+
+)What is React Router?
+    library used for handling routing in React apps. It enables navigation between components/pages without refreshing the browser.
+
+
+)How do you handle forms in React?
+    onSubmit
+
+
+) What is the key prop in lists?
+        The key prop is used to uniquely identify items in a list.
+
+
+
+)How does React handle performance optimization?
+   using virtual DOM, memoization (React.memo), lazy loading (React.lazy), and avoiding unnecessary re-renders.
+
+
+)Lazy loading in React
+       loading components only when you need them
+
+
+)Suspense Boundary?
+       is a part React component tree that can "wait" for some code or data to load before rendering. It’s created using the <Suspense> component.
+    
+)React.memo
+    higher-order component that wraps a functional component.
+
+)useMemo 
+    is a hook in React that memoizes a value, meaning it will only recalculate the value when its dependencies change. It is used to optimize expensive calculations.
+
+)useCallback.
+   is a hook that returns a memoized callback function, which only changes if its dependencies change.
+
+)React.Fragment 
+      group multiple elements without adding extra nodes to the DOM.
+
+) What is useReducer..
+     useReducer is a hook in React that is used for state management.
+
+    It is similar to useState, but it allows you to manage more complex state logic by using a reducer function.
+
+
+# What is the advantage of using React over others.
+     React's component-based architecture, virtual DOM, and one-way data flow make it easier to build and maintain complex UIs
+
+
+# .  Features and limitations of ReactJS.
+
+ Features of ReactJS include:
+
+·       Component-based architecture.
+
+·       Virtual DOM for efficient updates.
+
+·       JSX for writing HTML-like code in JavaScript.
+
+·       One-way data flow with props and state.
+
+ Limitations of ReactJS include:
+
+·       Steep learning curve for beginners.
+
+·       JSX may be confusing for developers new to   React.
+
+·       Managing state can be complex in large   applications.
+
+
+
+) React lifecycle.
+     refers to the series of methods that are invoked in different stages of a component's existence
+       
+        methods
+
+         componentDidMount,=   Runs once, after the component is first rendered
+         componentDidUpdate, =  Runs after every update (props or state changes).
+         componentWillUnmount = Runs just before the component is removed from the DOM.
+
+
+
+) What is React Fiber.
+     is a reimplementation of the React core algorithm designed to
+    improve the performance and responsiveness of large
+    and complex React applications
+
+
+) How to pass values from one component to another in React.
+     using props, context, or state management libraries like Redux or React's built-in Context API.
+      
+
+)  Key props in React.
+      used to uniquely identify elements in a list
+        helps React identify which items have changed, been added, or been removed, and improves the performance of list rendering
+
+       
+)What is useContext and why do we use it?
+
+    useContext is a hook in React that allows you to subscribe to React context without introducing nesting. 
+
+    It is used to access the context value from the nearest <MyContext.Provider> ancestor in the component tree.
+
+)What is useReducer.
+        used for state management.
+
+        It is similar to useState, but it allows you to manage more complex state logic by using a reducer function.
+
+
+)Redux.
+      predictable state container for JavaScript apps that helps manage the application's state in a more organized and predictable way.
+
+
+    ) When to use Redux:
+        
+    ) Redux thunk.
+         It’s a middleware for Redux that allows you to write action creators that return a function instead of an action object.
+
+
+    )  Redux Fiber.
+          React Fiber is a reimplementation of the React core algorithm designed to improve the performance and responsiveness of large and complex React applications.
+
+)What is the difference between Redux and Flux.
+    
+    Redux is a specific implementation of the Flux architecture pattern.
+
+    Flux is a pattern for managing state in web applications, and Redux is a library that implements this pattern in a specific way.
+
+ 
+         
+
+)Difference between Redux and Context API.
+     
+     Redux is a state management library that provides a global state container for managing the state of an application
+
+     Context API is a feature in React that allows you to pass data through the component tree without having to pass props down manually.
+
+)passwords securely in a MERN stack 
+       jsonwebtoken (JWT) 
