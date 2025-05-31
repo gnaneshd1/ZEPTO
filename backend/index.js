@@ -58,7 +58,7 @@ app.get('/Register', (req, res) => {
 // });
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/zepto-login', {
+mongoose.connect(process.env.MONGO_URI || 'MONGO_URI=mongodb://fervent_jepsen:27017/zepto-login', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
