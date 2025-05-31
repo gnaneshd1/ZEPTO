@@ -1,0 +1,40 @@
+# Use official Node.js image
+FROM node:18-alpine
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy package.json only (package-lock.json is optional and might not exist)
+COPY package.json ./
+
+# Install only production dependencies (safe without package-lock.json)
+RUN npm install --production
+
+# Copy your backend source files and folders
+COPY index.js ./
+COPY server.js ./
+COPY server ./server
+
+# Expose port 5005 (adjust if needed)
+EXPOSE 5005
+
+# Start the backend server
+CMD ["node", "index.js"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
