@@ -11,9 +11,7 @@ COPY package.json ./
 RUN npm install --production
 
 # Copy your backend source files and folders
-COPY index.js ./
-COPY server.js ./
-COPY server ./server
+COPY . .
 
 # Expose port 5005 (adjust if needed)
 EXPOSE 5005

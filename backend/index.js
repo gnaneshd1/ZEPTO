@@ -26,7 +26,7 @@ const app = express();
 // Use CORS middleware
 // Enhanced Middleware
 app.use(cors({
-    origin: 'http://localhost:3001', // Adjust according to your frontend
+    origin: ['http://localhost:3001', 'http://13.202.229.14:3001'], // Adjust according to your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
